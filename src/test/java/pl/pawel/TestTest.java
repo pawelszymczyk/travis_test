@@ -12,6 +12,11 @@ public class TestTest {
     public void test1() throws IOException {
         Main.main();
 
+
+
+
+
+
         Socket s = new Socket("localhost", 8080);
         s.close();
     }
