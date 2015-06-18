@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pl.pawel.TestTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-06-18T14:15:23" hostname="c50906" time="0.182">
+  <properties/>
+  <testcase name="test1" classname="pl.pawel.TestTest" time="0.182"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[cze 18, 2015 4:15:23 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.3.1.Final
+cze 18, 2015 4:15:24 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.3.1.Final
+]]></system-err>
+</testsuite>
