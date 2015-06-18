@@ -11,7 +11,6 @@ public class TestTest {
     @Test
     public void test1() throws IOException {
         Main.main();
-
         Socket s = new Socket("localhost", 8080);
         s.close();
     }
