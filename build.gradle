@@ -4,11 +4,34 @@ repositories {
     jcenter()
 }
 
+sourceSets {
+    integrationTest {
+        java {
+            compileClasspath += main.output + test.output
+            runtimeClasspath += main.output + test.output
+            srcDir file('src/integration/java')
+        }
+        resources.srcDir file('src/integration/resources')
+    }
+}
+
+configurations {
+    integrationTestCompile.extendsFrom testCompile
+    integrationTestRuntime.extendsFrom testRuntime
+}
+
 dependencies {
     compile 'org.slf4j:slf4j-api:1.7.7'
     compile 'io.undertow:undertow-core:1.2.7.Final'
     testCompile 'com.squareup.okhttp:okhttp:2.4.0'
-
-
     testCompile "junit:junit:4.11"
+    integrationTestCompile 'com.squareup.okhttp:okhttp:2.4.0'
+    integrationTestCompile "junit:junit:4.11"
 }
+
+task integrationTest(type: Test) {
+    testClassesDir = sourceSets.integrationTest.output.classesDir
+    classpath = sourceSets.integrationTest.runtimeClasspath
+}
+
+

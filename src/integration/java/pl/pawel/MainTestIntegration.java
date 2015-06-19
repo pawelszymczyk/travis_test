@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 
-public class MainTest {
+public class MainTestIntegration {
 
     public static final int PORT_8080 = 8080;
     public static final int PORT_14192 = 14192;
