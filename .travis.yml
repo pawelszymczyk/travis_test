@@ -1,3 +1,4 @@
 language: java
 
-script: ./gradlew integrationTest
+script:
+  - "./gradlew integrationTest"
