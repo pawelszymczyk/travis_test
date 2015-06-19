@@ -18,6 +18,8 @@ public class Main {
                     }
                 }).build();
         server.start();
+
+        System.err.println("HELLLO WORLD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
     }
 
     public static void close() {
