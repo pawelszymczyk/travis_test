@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String... args) {
         server = Undertow.builder()
-                .addHttpListener(8080, "localhost", new HttpHandler() {
+                .addHttpListener(18080, "localhost", new HttpHandler() {
                     @Override
                     public void handleRequest(final HttpServerExchange exchange) throws Exception {
                         exchange.getRequestHeaders().add(new HttpString("test_port"), 8080);

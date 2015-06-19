@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class MainTestIntegration {
 
-    public static final int PORT_8080 = 9999;
+    public static final int PORT_8080 = 18080;
     public static final int PORT_14192 = 14192;
 
     @AfterClass
