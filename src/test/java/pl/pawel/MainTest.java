@@ -10,7 +10,7 @@ import java.io.IOException;
 public class MainTest {
 
     public static final int PORT_8080 = 8080;
-    public static final int PORT_14192 = 14192;
+    public static final int PORT_14192 = 14193;
 
     @AfterClass
     public static void cleanup() {
