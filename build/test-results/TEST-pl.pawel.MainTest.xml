@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pl.pawel.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-06-19T08:55:44" hostname="c50906" time="0.169">
+<testsuite name="pl.pawel.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-06-19T09:03:18" hostname="c50906" time="0.167">
   <properties/>
-  <testcase name="mainTest" classname="pl.pawel.MainTest" time="0.169"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[cze 19, 2015 10:55:44 AM org.xnio.Xnio <clinit>
+  <testcase name="mainTest" classname="pl.pawel.MainTest" time="0.167"/>
+  <system-out><![CDATA[HELLLO WORLD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+]]></system-out>
+  <system-err><![CDATA[cze 19, 2015 11:03:18 AM org.xnio.Xnio <clinit>
 INFO: XNIO version 3.3.1.Final
-cze 19, 2015 10:55:44 AM org.xnio.nio.NioXnio <clinit>
+cze 19, 2015 11:03:18 AM org.xnio.nio.NioXnio <clinit>
 INFO: XNIO NIO Implementation Version 3.3.1.Final
 ]]></system-err>
 </testsuite>

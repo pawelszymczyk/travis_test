@@ -17,7 +17,7 @@ public class MainTest {
     public void mainTest() throws IOException {
         Main.main();
 
-        Socket socket = new Socket("localhost", 8080);
+        Socket socket = new Socket("localhost", 8081);
 
         assert socket != null;
     }

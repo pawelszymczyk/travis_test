@@ -19,7 +19,7 @@ public class Main {
                 }).build();
         server.start();
 
-        System.err.println("HELLLO WORLD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        System.out.println("HELLLO WORLD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
     }
 
     public static void close() {
